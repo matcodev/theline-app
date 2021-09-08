@@ -1,0 +1,55 @@
+/* variables colors The Line */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+:root{
+    --primary: rgb(222, 104, 165);
+    --secondary: rgb(226, 128, 180);
+    --tertiary: rgb(247, 222, 235);
+    --quaternary: rgb(91, 99, 230); 
+    --quinary: rgb(119, 124, 233); 
+    --senary: rgb(164, 167, 240);
+    --dark: rgb(0, 0, 0); 
+    --light: rgb(255, 255, 255);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 1440px;
+    height: 100%;
+    background: linear-gradient(180deg, #000000 7%, rgba(255, 255, 255, 0) 87.5%);
+}
+.login-form {
+    width: 600px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #000000;
+    box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: var(--light);   
+}
+.logo-inicio {
+    width: 500px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#buttonInicio {
+    margin: 45px;
+    background: linear-gradient(90deg, #7879F1 -4.44%, #FCDDEC 82.22%);
+    box-shadow: 2px 3px 6px rgba(255, 255, 255, 0.26);
+    border-radius: 50px;
+    font-weight: 900;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.anchor-access {
+    color: var(--senary);
+}
