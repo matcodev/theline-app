@@ -36,7 +36,9 @@ main {
 #user-log-name:hover {
     background-color: var(--secondary);
 }
+.view-principal{
 
+}
 .sidebar-left {
     position: relative;
     width: 260px;
@@ -70,6 +72,7 @@ main {
 
 .button-actions {
     padding-top: 10px;
+    margin: 30px 0px;
 }
 
 .button-actions>a {
@@ -89,7 +92,9 @@ main {
 }
 .button-help{
     position: relative;
-    padding-top: calc(90% - 45px);
+    height: 530px;
+    /* padding-top: calc(100vh - 670px); */
+    padding-top: 28rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
 .button-help > a{
@@ -101,7 +106,6 @@ main {
 .button-help>a:hover {
     border: 2px solid #EF5DA8;
 }
-
 .footer {
     background: var(--dark);
     font-family: 'Rubik', sans-serif;
